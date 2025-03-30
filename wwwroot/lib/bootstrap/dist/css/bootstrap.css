@@ -578,7 +578,7 @@ progress {
   margin-bottom: 0;
 }
 
-.blockquote-footer {
+/*.blockquote-footer {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
@@ -586,7 +586,7 @@ progress {
 }
 .blockquote-footer::before {
   content: "— ";
-}
+}*/
 
 .img-fluid {
   max-width: 100%;

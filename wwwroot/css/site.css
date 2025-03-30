@@ -1,22 +1,69 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
 
 body {
-  margin-bottom: 60px;
+    background-color: #fce4ec; /* Rosa suave */
+    color: #333;
+    font-family: 'Arial', sans-serif;
 }
+
+.hero-section {
+    background-color: #f48fb1; /* Rosa más intenso */
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .hero-section h1 {
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+
+    .hero-section p {
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+
+.btn-custom {
+    background-color: #ec407a; /* Rosa vibrante */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-custom:hover {
+        background-color: #d81b60; /* Rosa más oscuro al pasar el ratón */
+    }
+/*footer {
+    background-color: #880e4f;  Rosa oscuro 
+    color: white;
+    text-align: absolute;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    }
+*/
+
+.content-section {
+    padding: 30px 0; /* Reducir padding superior e inferior */
+    text-align: center;
+}
+
+    .content-section img {
+        max-width: 500px; /* Ajusta el tamaño de la imagen al 50% del contenedor */
+        height: 300px; /* Mantiene la proporción */
+        margin-top: 10px;
+    }
+
+    .content-section h2 {
+        font-size: 2rem;
+        color: #880e4f; /* Rosa oscuro */
+        margin-bottom: 50px; /* Reducir espacio entre el título y la imagen */
+    }
+
+
